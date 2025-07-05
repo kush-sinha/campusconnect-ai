@@ -12,7 +12,7 @@ https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateConte
     {
       headers: {
         'Content-Type': 'application/json',
-        Authorization:AIzaSyCh1Z6KcVHb0eZ55MwLEFEnwZ_uL6BVWC0
+        Authorization:'AIzaSyCh1Z6KcVHb0eZ55MwLEFEnwZ_uL6BVWC0'
       }
     }
   );
