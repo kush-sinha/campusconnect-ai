@@ -4,12 +4,12 @@ import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import { getAnalytics } from 'firebase/analytics';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyCh1Z6KcVHb0eZ55MwLEFEnwZ_uL6BVWC0',
-  authDomain: campusconnect-ai.firebaseapp.com,
-  projectId: campusconnect-ai,
-  storageBucket: campusconnect-ai.appspot.com,
-  messagingSenderId: 1234567890,
-  appId: 1:1234567890:web:abcdef123456,
+  apiKey: 'AIzaSyB4vySSX3kX2kyHmCPOVINfRpTazxNPoSk',
+  authDomain: 'campusconnect-ai.firebaseapp.com',
+  projectId: 'campusconnect-ai',
+  storageBucket: 'campusconnect-ai.appspot.com',
+  messagingSenderId:' 1234567890',
+  appId: '1:1234567890:web:abcdef123456',
 };
 
 const app = initializeApp(firebaseConfig);
