@@ -7,8 +7,17 @@ export default function CareerAssistant() {
   const [response, setResponse] = useState('');
 
   const handleSubmit = async () => {
-    const result = await getCareerSuggestions(input);
-    setResponse(result?.candidates?.[0]?.content?.parts?.[0]?.text || 'No response received');
+    setResponse('⏳ Fetching suggestion from Gemini...');
+    try {
+      const result = await getCareerSuggestions(input);
+      console.log('Gemini raw response:', result);
+      const suggestion = result?.candidates?.[0]?.content?.parts?.[0]?.text || '⚠️ Gemini gave no response.';
+      setResponse(suggestion);
+    } catch (error: any) {
+      console.error('❌ Gemini API Error:', error);
+      setResponse('🚫 Gemini API call failed. Check console for error details.');
+    }
+  };
   };
 
   return (
