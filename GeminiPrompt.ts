@@ -11,7 +11,7 @@ export async function getCareerSuggestions(promptText: string) {
     {
       headers: {
         'Content-Type': 'application/json',
-        Authorization:'AIzaSyB4vySSX3kX2kyHmCPOVINfRpTazxNPoSk'
+        Authorization:'AIzaSyBtt3DzpbX1-wRavMVMgRibuS01YNXCHvc'
       }
     }
   );
