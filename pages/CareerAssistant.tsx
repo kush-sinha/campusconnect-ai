@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { getCareerSuggestions } from '../GeminiPrompt';
+import { getCareerSuggestions } from './api/GeminiPrompt';
 
 export default function CareerAssistant() {
   const [input, setInput] = useState('');
