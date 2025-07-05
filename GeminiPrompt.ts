@@ -11,7 +11,7 @@ export async function getCareerSuggestions(promptText: string) {
     {
       headers: {
         'Content-Type': 'application/json',
-        Authorization: `Bearer YOUR_GEMINI_API_KEY`
+        Authorization: `AIzaSyDorG892FuLeknQlSwOjyeswGxZ7cmiD_0`
       }
     }
   );
