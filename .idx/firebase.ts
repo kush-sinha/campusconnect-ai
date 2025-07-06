@@ -4,7 +4,7 @@ import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import { getAnalytics } from 'firebase/analytics';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyBtt3DzpbX1-wRavMVMgRibuS01YNXCHvc',
+  apiKey: 'AIzaSyD4Ph_o7alzwdTl-WgSZsDj0cWLqJWLS7o',
   authDomain: 'campusconnect-ai.firebaseapp.com',
   projectId: 'campusconnect-ai',
   storageBucket: 'campusconnect-ai.appspot.com',
